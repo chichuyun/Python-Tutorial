@@ -44,7 +44,7 @@ for m in z:  # m依次遍历z中的元素,遍历完终止循环(或者遇到brea
             print("result(f(m)):", f(m))  
     except: # 不可缺省
         pass  # 空语句,方便编写程序
-    else:  # 如果try中的语句执行报错,则会执行else下的语句(可缺省)
+    else:  # 如果try中的语句执行不报错,则会执行else下的语句(可缺省)
         continue  #　直接进行下次循环,
     finally:  # 无论try下语句报不报错,都会执行finally下的语句(可缺省)(常用于无论有没有出错的情况下关闭数据文档)
         print("test finally", m)
