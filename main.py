@@ -42,7 +42,7 @@ for m in z:  # m依次遍历z中的元素,遍历完终止循环(或者遇到brea
             assert m > 0  # 断点测试,不满足会抛出AssertionError错误
         else: # 最后一个else
             print("result(f(m)):", f(m))  
-    except: # 不可缺省
+    except: # 可缺省(但是不能只有try而没有后续操作)
         pass  # 空语句,方便编写程序
     else:  # 如果try中的语句执行不报错,则会执行else下的语句(可缺省)
         continue  #　直接进行下次循环,
