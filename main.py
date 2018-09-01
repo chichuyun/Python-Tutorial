@@ -48,7 +48,9 @@ for m in z:  # m依次遍历z中的元素,遍历完终止循环(或者遇到brea
         continue  #　直接进行下次循环,
     finally:  # 无论try下语句报不报错,都会执行finally下的语句(可缺省)(常用于无论有没有出错的情况下关闭数据文档)
         print("test finally", m)
-m=0        
+else:
+    print("No break!")  # 如果for中没有因为break中断,则会执行else语句
+m=0 if(z[0]>1) else 5 # 这里类似C/C++中的?:表达式，但只有赋值功能,若条件满足m等于0,否则就为5
 while isinstance(z[m],int):  # while循环语句,当满足时进行循环      # isinstance函数可以判断某个值是否为所给数据类型,例如这里就是判断z的某个元素是不是整数类型(int)
     if z[m]==1 is True:  # 这里加True有点多此一举,仅是作为一个bool类型的例子
         print("test while", True)  # 真为True,假为False
