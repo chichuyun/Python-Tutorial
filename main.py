@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-      # 设置编码格式为utf-8,这个编码格式支持中文输出
+# -*- coding: utf-8 -*-      # 设置文本编码格式为utf-8
 """
 Created on Thu Apr 20 20:10:01 2017
 
