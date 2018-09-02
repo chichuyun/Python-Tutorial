@@ -1,4 +1,3 @@
-# Rupert
-一个简要的python教程  
+# Python 教程
 
-主要介绍一下python的关键字.
+要是有什么问题欢迎评论
